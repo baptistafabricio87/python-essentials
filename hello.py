@@ -1,4 +1,4 @@
-#!python3.9
+#!/usr/bin/env python3
 
 # Comentarios:
 # - Serve par informar o uso do script/programa
