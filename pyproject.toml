@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-essentials"
+version = "0.1.0"
+description = "Scripts Curso Python Essentials - LinuxTips"
+authors = ["Fabricio Castro <baptistafabricio87@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_essentials"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
