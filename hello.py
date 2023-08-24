@@ -8,13 +8,13 @@ Como usar:
 Tenha a variavel LANG devidamente configurada.
 
 Exemplo:
-    
+
     export LANG=pt_BR
 
 Exec.:
 
     python3 hello.py
-    
+
     ou
 
     ./hello.py
@@ -29,6 +29,10 @@ __license__ = "Unlicense"
 # - no final da linha/comando serve como uma tag
 
 import os
+
+# lang = os.getenv('LANG', 'en_US').split('.')[0]
+# lang = os.getenv('LANG', 'en_US')[:5]
+# current_language = lang
 
 current_language = os.getenv('LANG', 'en_US')[:5]
 
