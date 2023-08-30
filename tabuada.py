@@ -12,7 +12,7 @@ Tabuada do 2:
 -------------
 """
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Fabricio Castro'
 
 
@@ -22,7 +22,11 @@ numeros = list(range(1,11))
 
 
 for numero in numeros:
-	print(f'Tabuada do {numero}: \n')
+	print("{:-^20}".format(f' Tabuada do {numero} '))
+	print()
 	for outro_numero in numeros:
-		print(f'{numero} x {outro_numero} = {numero*outro_numero}\n')
-	print('-' * 12)
+	    resultado = numero * outro_numero
+	    print("{:^20}".format(f'{numero} x {outro_numero} = {resultado}'))
+
+	print()
+	print('#' * 20)
