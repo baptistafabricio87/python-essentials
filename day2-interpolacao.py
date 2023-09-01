@@ -23,7 +23,6 @@ for cliente in clientes:
             'texto': 'Um texto bonito aqui',
             'link': 'https://canetaslegais.com',
             'quantidade': 2,
-            'preco': 40.0
-           }
-          )
-          
+            'preco': 40.0,
+        }
+    )
